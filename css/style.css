@@ -1,0 +1,331 @@
+          /* COMMON CSS STARTS */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 1170px;
+  margin: auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a{
+  text-decoration: none;
+}
+        
+ul, ol{
+  list-style: none;
+}
+
+body{
+  font-family:  'Open Sans', sans-serif;
+}
+
+.button{
+  font-size: 16px;
+  font-weight: 800;
+  color: #0b1016;
+  background-color: #cfc91d;
+  border: none;
+  padding: 18px 40px 16px 40px;
+  letter-spacing: 3px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.heading h2{
+  text-transform: uppercase;
+  font-size: 46px;
+  font-weight: 800;
+  color: #02918c;
+  padding-top: 85px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.heading p{
+  color: #7e8287;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 38px;
+}
+
+h4{
+  font-size: 20px;
+  padding: 25px 0px;
+  color: #7e8287;
+}
+
+          /* COMMON CSS ENDS */
+
+          /* NAVBAR STARTS */
+nav{
+  background-color: #02918c;
+  justify-content: center;
+}
+
+nav .row{
+  align-items: center;
+}
+
+.logo{
+  width: 480px;
+  padding: 20px;
+}
+
+.logo img{
+  width: 135px;
+}
+
+.menu a{
+  padding: 25px;
+}
+
+.menu li{
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+          /* NAVBAR ENDS */
+
+          /* BANNER Starts */
+
+#banner{
+  background-image: url(../images/backcover.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 725px;
+}
+
+#banner .row{
+  height: 725px;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-context{
+  text-align: center;
+  color: white;
+}
+
+.banner-context h3{
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.banner-context h1{
+  font-size: 68px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 25px;
+}
+
+.banner-context p{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.banner-context img{
+  padding: 50px;
+}
+
+          /* BANNER Ends */           
+
+        /* ABOUT ME STARTS */
+
+/* ↑ heading is under common css ↑ */
+
+.para{
+  color: #7e8287;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 35px;
+  padding-bottom: 80px;
+}
+
+.para span{
+  color: #7e8287;
+  font-size: 23px;
+  font-weight: 800;
+}
+
+
+.cart{
+  width: 290px;
+  height: 230px;
+  text-align: center;
+  padding: 20px;
+  border-right: 1px solid #d9dbdb;
+  margin-bottom: 50px;
+}
+
+.cart:nth-child(4){
+  border: none;
+}
+
+.cart i{
+  font-size: 30px;
+  color: #60bab7;
+}
+
+.cart p{
+  font-size: 15px;
+  color: #7e8287;
+  line-height: 20px;
+}
+
+          /* ABOUT ME ENDS */
+
+          /* SERVICES START */
+#services-whole{
+  background-image: url(../images/service-background.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 740px;
+  padding-left: 20px;
+}
+
+.services{
+  width: 485px;
+}
+
+.services .heading h2{
+  text-align: left;
+  padding-top: 50px;
+}
+
+.services .heading p{
+  text-align: left;
+}
+
+.services .para{
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+/* services on CSS start */
+.services-on .servs{
+  width: 190px;
+  height: 155px;
+  margin: 25px 0;
+}
+
+.services-on .servs i{
+  color: #249a93;
+  font-size: 30px;
+  padding: 20px 0;
+}
+
+.services-on .servs h4{
+  color: #7e8287;
+  font-size: 18px;
+  font-weight: 800;
+  padding-bottom: 18px;
+}
+
+.services-on .servs p{
+  color: #7e8287;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/* services on CSS end */
+          /* SERVICES END */
+
+          /* MY WORK STARTS */
+.work-part .row{
+  align-items: center;
+  justify-content: center;
+}
+
+.work-part .images .overlay h4{
+  color: white;
+  padding-top: 45px;
+  text-align: center;
+}
+
+.work-part .images .overlay p{
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.work-part .images .overlay{
+  position: absolute;
+  inset: 20px 28px;
+  background-color: #02918ca0;
+  background-blend-mode: screen;
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
+}
+
+.work-part .images{
+  position: relative;
+}
+
+.work-part .images img{
+  width: 100%;
+  display: block;
+}
+
+.work-part .images:hover .overlay{
+  opacity: 1;
+  visibility: inherit;
+  padding-top: 10px;
+}
+
+
+          /* MY WORK ENDS */
+
+          /* CONTACT ME STARTS */
+.blackform{
+  background-color: #0b0b0b;
+  height: 630px;
+}
+
+.blackform .row{
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.blackform .input-data{
+  position: relative;
+  padding: 30px;
+}
+
+.blackform .input-data input{
+  width: 800px;
+  height: 60px;
+  font-size: 25px;
+  color: white;
+  background-color: #0b0b0b;
+  bottom: 0;
+  border: none;
+  border-bottom: 2px solid #7e8287;
+}
+
+.blackform .input-data label{
+  position: absolute;
+  color: #7e8287;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.submit-button .button{
+  margin: 20px 550px;
+}
+
+          /* CONTACT ME ENDS */
